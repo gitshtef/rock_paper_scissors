@@ -5,16 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- 
+    <link rel="stylesheet" href="/repos/rock_paper_scissors/style.css">
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
 
-    <p>Make your choice</p>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    
+    <div class="container">
+        <p>Make your choice</p>
 
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+        <div id="buttons">
+            <div class="button">
+                <img src="https://i.pinimg.com/564x/12/63/ae/1263aeaeabe58e8bae485f2f574544e7.jpg" alt="rock">
+                <img src="https://i.pinimg.com/564x/06/59/a0/0659a0f18671288068039a0bb7119d71.jpg" alt="paper">
+                <img src="https://i.pinimg.com/564x/fb/60/91/fb6091809dee4a86c867566f61b7b32f.jpg" alt="scissors">
+            </div>
+
+            <div class="button">
+                <button id="rock">Rock</button> 
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+    </div>
+        
+    
+        <div id="result">
+            <div id="score">
+                <div id="playerScore"></div>
+                <div id="computerScore"></div>
+            </div> 
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://github.com/gitshtef">shtef90</a></p> 
+    </footer>
+    
 
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,88 @@
+@import url('http://fonts.cdnfonts.com/css/force-runner');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #40736E;
+    color: whitesmoke;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Force Runner 3D Italic', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Force Runner Halftone', sans-serif;
+    color: black;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+header {
+    background-color: #203740;
+    text-align: center;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerScore {
+    margin: 20px;
+    padding: 20px;
+}
+
+#computerScore {
+    margin: 20px;
+    padding: 20px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: black;
+    color: #40736E;
+}
+
+img {
+    width: auto;
+    height: 100px;
+    margin: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+button {
+    margin: 10px 30px;
+    width: 65px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
